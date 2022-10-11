@@ -1,22 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".ui.slideshow.SlideshowFragment">
 
     <TextView
-        android:id="@+id/text_slideshow"
+        android:id="@+id/tx_desertQuestionTitle"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="20pt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:textAlignment="center"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:text="Deserts!!!" />
+
+    <TextView
+        android:id="@+id/tx_desertQuestion"
+        android:textColor="@color/black"
+        android:textSize="10pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What desert do you eat after your ramen?" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RadioButton
+            android:textColor="@color/black"
+            android:textSize="8pt"
+            android:id="@+id/rd_cookiesDesertQuestionChoice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cookies" />
+
+        <RadioButton
+            android:id="@+id/rd_cakeDesertQuestionChoice"
+            android:textColor="@color/black"
+            android:textSize="8pt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cake" />
+
+        <RadioButton
+            android:id="@+id/rd_cupcakesDesertQuestionChoice"
+            android:textSize="8pt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cupcakes" />
+
+        <RadioButton
+            android:id="@+id/rd_donutsDesertQuestionChoice"
+            android:textSize="8pt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Donuts" />
+
+        <EditText
+            android:id="@+id/et_othersDesertQuestionChoice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Others: " />
+
+    </RadioGroup>
+</LinearLayout>
