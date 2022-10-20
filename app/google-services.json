@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "241093526584",
+    "project_id": "ramen-4e9a6",
+    "storage_bucket": "ramen-4e9a6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:241093526584:android:93ad2295dbeb93853412cd",
+        "android_client_info": {
+          "package_name": "com.example.ramen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "241093526584-ievcf24mr3f98fo4hb2rldi9g8bemgd2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwUksMsLjAJ0I3_GBqSR6y5gemhOsps2E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "241093526584-ievcf24mr3f98fo4hb2rldi9g8bemgd2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
